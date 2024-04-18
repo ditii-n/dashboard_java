@@ -1,0 +1,33 @@
+
+.student-container {
+  width: 100%;
+position: relative;
+  top: 100px;
+  margin-left: 500px;
+}
+.app-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Add a new class to style the container of the AppBar */
+.app-bar-container {
+  max-width: 100%;
+}
+
+/* Modify the existing styles for other elements as needed */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
